@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Desafio_ILG.WeatherDetailPage"
+             Title="Detalhes">
+    <ContentPage.Content>
+        <StackLayout >
+            <Button Text="Monitorar Cidade" 
+                    BackgroundColor="#e96e50"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"
+                    HeightRequest="50"
+                    CornerRadius="20"
+                    Clicked="OnButtonWatchClicked" Visual="Material"/>
+            <Label x:Uid="lblCityName"
+                   Text="{Binding Name}"
+                   FontAttributes="Bold"
+                   FontSize="Title"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   Margin="100"/>
+            <Grid BackgroundColor="#848484" Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+            
+                <Label x:Uid="lblTemperature"
+                       Text="{Binding Temperature}"
+                       FontAttributes="Bold"
+                       FontSize="Title"
+                       VerticalOptions="Center"
+                       Grid.Row="0"
+                       Grid.Column="1" />
+                <Image x:Uid="imgIcon"
+                        Source="{Binding IconURI}"
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        WidthRequest="80"
+                        HeightRequest="80"
+                    />
+                <Label x:Uid="lblWeatherCondition"
+                    Text="{Binding Condition}"
+                    FontAttributes="Bold"
+                    FontSize="Body"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center"
+                    Grid.Row="1"
+                    Grid.Column="2" />
+
+                <Label Text="Temp. Mínima:"
+                       FontAttributes="Bold"
+                       FontSize="Body"
+                       Grid.Row="4"
+                       Grid.Column="1"
+                       HorizontalOptions="End"/>
+                <Label Text="Temp. Máxima:"
+                       FontAttributes="Bold"
+                       FontSize="Body"
+                       Grid.Row="5"
+                       Grid.Column="1" 
+                       HorizontalOptions="End"/>
+                <Label x:Uid="lblMinTemperature"
+                       Text="{Binding MinTemperature}"
+                       FontAttributes="Bold"
+                       FontSize="Body"
+                       Grid.Row="4"
+                       Grid.Column="2" 
+                       HorizontalOptions="Start"/>
+                <Label x:Uid="lblMaxTemperature"
+                       Text="{Binding MaxTemperature}"
+                       FontAttributes="Bold"
+                       FontSize="Body" 
+                       Grid.Row="5"
+                       Grid.Column="2" />
+        </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

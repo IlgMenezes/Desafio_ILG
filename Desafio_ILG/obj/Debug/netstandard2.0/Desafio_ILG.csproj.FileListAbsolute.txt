@@ -1,0 +1,16 @@
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\bin\Debug\netstandard2.0\Desafio_ILG.deps.json
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\bin\Debug\netstandard2.0\Desafio_ILG.dll
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\Desafio_ILG.AssemblyInfoInputs.cache
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\Desafio_ILG.AssemblyInfo.cs
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\bin\Debug\netstandard2.0\ref\Desafio_ILG.dll
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\bin\Debug\netstandard2.0\Desafio_ILG.pdb
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\Desafio_ILG.dll
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\ref\Desafio_ILG.dll
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\Desafio_ILG.pdb
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\Views\SearchCityPage.xaml.g.cs
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\Views\WeatherDetailPage.xaml.g.cs
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\bin\Debug\netstandard2.0\city.list.json
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\Desafio_ILG.csprojAssemblyReference.cache
+C:\Users\Ilg\source\repos\Desafio_ILG\Desafio_ILG\obj\Debug\netstandard2.0\XamlC.stamp
